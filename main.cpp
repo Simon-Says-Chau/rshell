@@ -21,8 +21,8 @@ int main()
 	char host_name[256];
 	char *cmd = NULL;
 
-    while(1)
-    {
+	while(1)
+	{
 		getlogin_r(user_name, sizeof(user_name)-1);
 		gethostname(host_name, sizeof(host_name)-1);
 		
