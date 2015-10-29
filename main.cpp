@@ -36,7 +36,7 @@ int main()
 			if(line[x] == '#')
 			{
 				line[x] = NULL;
-			}	
+			}
 		}
 
 		//Check line if exit
