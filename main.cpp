@@ -29,7 +29,7 @@ int main()
 		cout << "[" << user_name << "@" << host_name << " ~]$ ";
         
 		//Get user inputs
-        cin.getline(line,100);	
+		cin.getline(line,100);	
 		
 		for(unsigned x = 0; x < 100; x++)
 		{
@@ -39,7 +39,7 @@ int main()
 			}	
 		}
 
-        //Check line if exit
+		//Check line if exit
 		cmd = strtok(line, delimiter);
 		if(line[0] == '\0')
 		{
