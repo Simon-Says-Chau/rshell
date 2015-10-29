@@ -1,6 +1,6 @@
 #rshell
 
-This project is a basic shell written in C++ and acts as a pseudo shell.
+This project is a basic shell written in C++ and acts as a pseudo shell.  It does not fully replicate the processes a basic shell can do, such as the cd command.
 
 #Bugs:
 
