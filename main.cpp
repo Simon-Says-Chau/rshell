@@ -47,55 +47,53 @@ int main()
 		}
 
 		if(strcmp(cmd, "exit") == 0)
-        {
-            exit(1);
-        }
+		{
+			exit(1);
+		}
 
-        //Execute command if not exit
-        else
-        {
-            int num = fork();
-            if(num == 0)
-            {
-                char* arg_1[100];
-                arg_1[0] = new char[50];
-                strcpy(arg_1[0],cmd);
+		//Execute command if not exit
+		else
+		{
+			int num = fork();
+			if(num == 0)
+			{
+				char* arg_1[100];
+				arg_1[0] = new char[50];
+				strcpy(arg_1[0],ccmd = strtok(NULL,delimiter);
 				cmd = strtok(NULL,delimiter);
-                unsigned int i = 0;
+				unsigned int i = 0;
 
-                while(cmd != NULL)
-                {
-                    arg_1[i+1] = new char[50];
-                    strcpy(arg_1[i+1],cmd);
-                    cmd = strtok(NULL,delimiter);
-                    i++;
-                }
+				while(cmd != NULL)
+				{
+					arg_1[i+1] = new char[50];
+					strcpy(arg_1[i+1],cmd);
+					cmd = strtok(NULL,delimiter);
+					i++;
+				}
 
-                arg_1[i+1] = NULL;
-                int pid = execvp(arg_1[0],arg_1);
+				arg_1[i+1] = NULL;
+				int pid = execvp(arg_1[0],arg_1);
 
-                if(pid == -1)
-                {
-                    perror("execvp failed");
-                }
+				if(pid == -1)
+				{
+					perror("execvp failed");
+				}
 
-                exit(1);
-            }
-			
-            else if(num == -1)
-            {
-                perror("fork failed");
-                exit(1);
-            }
+				exit(1);
+			}
 
-            else
-            {
-                wait(NULL);
-            }
-			
+			else if(num == -1)
+			{
+				perror("fork failed");
+				exit(1);
+			}
 
-        }
-    }
-	
-    return 0;
+			else
+			{
+				wait(NULL);
+			}
+		}
+	}
+
+	return 0;
 }
