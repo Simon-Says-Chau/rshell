@@ -1,0 +1,63 @@
+Script started on Tue 03 Nov 2015 10:36:31 PM PST
+]0;schau009@hammer:~[?1034h[schau009@hammer ~]$ ls
+=                         [0m[01;32mex1[0m             [01;31mLab_2.tar[0m    Simon_861099861.txt
+\                         ex1.cpp         [01;31mLab_4.tar[0m    [01;32msort.sh[0m
+[01;32ma.out[0m                     [01;32mex2[0m             [01;31mLab_5.tar[0m    telnet
+[01;32ma.sh[0m                      ex2.cpp         [01;32mlargest.sh[0m   TEST
+bash                      exec.script     LICENSE.txt  testaa.cc
+[01;32mb.sh[0m                      [01;34mfirstrepo[0m       main.cc      testaa.hh
+[01;32mcreateEmptyClassFiles.sh[0m  [01;32mfirstScript.sh[0m  MyClass.cc   [01;34mucr-cs100[0m
+[01;32mcreateEmptyMainFile.sh[0m    [01;32mgame.sh[0m         MyClass.hh   v
+dead.letter               Lab_0           [01;34mrshell[0m       vimrc
+Desktop                   Lab_2.cpp       [01;32msendspam.sh[0m
+[m]0;schau009@hammer:~[schau009@hammer ~]$ cd rshell/
+]0;schau009@hammer:~/rshell[schau009@hammer rshell]$ ls
+Makefile  README.md  [0m[01;34msrc[0m
+[m]0;schau009@hammer:~/rshell[schau009@hammer rshell]$ cd src/
+]0;schau009@hammer:~/rshell/src[schau009@hammer src]$ ls
+[0m[01;32ma.out[0m  main.cpp
+[m]0;schau009@hammer:~/rshell/src[schau009@hammer src]$ ls -a
+[0m[01;34m.[0m  [01;34m..[0m  [01;32ma.out[0m  main.cpp
+[m]0;schau009@hammer:~/rshell/src[schau009@hammer src]$ .a[K/a.out
+[schau009@hammer.cs.ucr.edu ~]$ ls
+a.out  main.cpp
+[schau009@hammer.cs.ucr.edu ~]$ echo hello world
+hello world
+[schau009@hammer.cs.ucr.edu ~]$ echo hello
+hello
+[schau009@hammer.cs.ucr.edu ~]$ echo
+
+[schau009@hammer.cs.ucr.edu ~]$ echo "test quotes"
+test quotes
+[schau009@hammer.cs.ucr.edu ~]$ echo "test qupt  doe     pte ptes otes             	other    tes"
+test qu otes
+[schau009@hammer.cs.ucr.edu ~]$ echo "quopt  es  tes and #comments"
+quotes and
+[schau009@hammer.cs.ucr.edu ~]$ echo hello #commentstop
+hello
+[schau009@hammer.cs.ucr.edu ~]$ echo #commentstop hello won't appear
+
+[schau009@hammer.cs.ucr.edu ~]$ mkdir temp_test
+[schau009@hammer.cs.ucr.edu ~]$ ls
+a.out  main.cpp  temp_test
+[schau009@hammer.cs.ucr.edu ~]$ rmdir tem	 mp_test
+[schau009@hammer.cs.ucr.edu ~]$ ls
+a.out  main.cpp
+[schau009@hammer.cs.ucr.edu ~]$ clear
+[H[2J[schau009@hammer.cs.ucr.edu ~]$ cd  ls
+a.out  main.cpp
+[schau009@hammer.cs.ucr.edu ~]$ cd
+execvp failed: No such file or directory
+[schau009@hammer.cs.ucr.edu ~]$ echoo ||     hello || m ls
+hello || ls
+[schau009@hammer.cs.ucr.edu ~]$ ls
+a.out  main.cpp
+[schau009@hammer.cs.ucr.edu ~]$ echoo hello ||  && ls || l echo bye
+execvp failed: No such file or directory
+[schau009@hammer.cs.ucr.edu ~]$ echo hello && ls || echo byu e
+hello && ls || echo bye
+[schau009@hammer.cs.ucr.edu ~]$ exit
+]0;schau009@hammer:~/rshell/src[schau009@hammer src]$ x[Kexit
+exit
+
+Script done on Tue 03 Nov 2015 10:41:28 PM PST
