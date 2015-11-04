@@ -59,7 +59,7 @@ int main()
 			{
 				char* arg_1[100];
 				arg_1[0] = new char[50];
-				strcpy(arg_1[0],ccmd = strtok(NULL,delimiter);
+				strcpy(arg_1[0],cmd);
 				cmd = strtok(NULL,delimiter);
 				unsigned int i = 0;
 
