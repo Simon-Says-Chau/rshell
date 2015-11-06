@@ -16,7 +16,6 @@ using namespace std;
 int main()
 {
 	char line[100];
-	char temp[100];
 	char user_name[256];
 	char host_name[256];
 	char *cmd = NULL;
