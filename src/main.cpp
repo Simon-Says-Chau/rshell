@@ -34,7 +34,7 @@ int main()
 		{
 			if(line[x] == '#')
 			{
-				line[x] = NULL;
+				line[x] = '\0';
 			}
 		}
 
