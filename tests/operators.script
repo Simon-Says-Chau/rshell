@@ -1,0 +1,21 @@
+Script started on Fri 20 Nov 2015 02:09:33 PM PST
+]0;schau009@hammer:~/rshell/src[?1034h[schau009@hammer src]$ ls
+[0m[01;32ma.out[0m  main.cpp  operators.script
+[m]0;schau009@hammer:~/rshell/src[schau009@hammer src]$ ./a.out
+[schau009@hammer.cs.ucr.edu ~]$ ls
+a.out  main.cpp  operators.script
+[schau009@hammer.cs.ucr.edu ~]$ echo A && echo B || echo C && echo D
+A && echo B || echo C && echo D
+[schau009@hammer.cs.ucr.edu ~]$ echo ) (      (echo A && echo B) || (echo C && echo D)
+execvp failed: No such file or directory
+[schau009@hammer.cs.ucr.edu ~]$ (echo     test -e main.cpp && echo "path exists"
+File/Directory exists.
+[schau009@hammer.cs.ucr.edu ~]$ "test     echo "test -e main.cpp"
+test -e main.cpp
+[schau009@hammer.cs.ucr.edu ~]$ "test =e  -e man in.cpp"
+File/Directory exists.
+[schau009@hammer.cs.ucr.edu ~]$ exit
+]0;schau009@hammer:~/rshell/src[schau009@hammer src]$ exit
+exit
+
+Script done on Fri 20 Nov 2015 02:11:49 PM PST

@@ -1,0 +1,53 @@
+Script started on Fri 20 Nov 2015 02:01:51 PM PST
+]0;schau009@hammer:~/rshell/src[?1034h[schau009@hammer src]$ ls
+[0m[01;32ma.out[0m  flag.script  main.cpp  [01;34mtest[0m
+[m]0;schau009@hammer:~/rshell/src[schau009@hammer src]$ ./a.out
+[schau009@hammer.cs.ucr.edu ~]$ ls
+a.out  flag.script  main.cpp  test
+[schau009@hammer.cs.ucr.edu ~]$ test -e test/file/path
+File/Directory exists.
+[schau009@hammer.cs.ucr.edu ~]$ [ -e test/file/path ]
+File/Directory exists.
+[schau009@hammer.cs.ucr.edu ~]$ test -f test/file/path
+File exists and is a file.
+[schau009@hammer.cs.ucr.edu ~]$ t [ -f test/file/path ]
+File exists and is a file.
+[schau009@hammer.cs.ucr.edu ~]$ test -d test/file/path
+Directory does not exist or not a directory.
+[schau009@hammer.cs.ucr.edu ~]$ test    [ -de  test/file/paht  th ]
+Directory does not exist or not a directory.
+[schau009@hammer.cs.ucr.edu ~]$ test -d test/file           e test/file
+File/Directory exists.
+[schau009@hammer.cs.ucr.edu ~]$ test    [ -e test/file]  ]
+File/Directory exists.
+[schau009@hammer.cs.ucr.edu ~]$ test -f test/file
+File does not exist or not a file.
+[schau009@hammer.cs.ucr.edu ~]$ test    [ -f test/file ]
+File does not exist or not a file.
+[schau009@hammer.cs.ucr.edu ~]$ test -d test/file
+Directory exists and is a directory.
+[schau009@hammer.cs.ucr.edu ~]$ [ -d test/file ]
+Directory exists and is a directory.
+[schau009@hammer.cs.ucr.edu ~]$ test test/file/path
+File/Directory exists.
+[schau009@hammer.cs.ucr.edu ~]$ [ test/file/patjh  h]  ]
+File/Directory exists.
+[schau009@hammer.cs.ucr.edu ~]$ test test/fiu le
+File/Directory exists.
+[schau009@hammer.cs.ucr.edu ~]$ te  [ test/file ]
+File/Directory exists.
+[schau009@hammer.cs.ucr.edu ~]$ ls
+a.out  flag.script  main.cpp  test
+[schau009@hammer.cs.ucr.edu ~]$ exit
+]0;schau009@hammer:~/rshell/src[schau009@hammer src]$ exit[K[K[K[Kls
+[0m[01;32ma.out[0m  flag.script  main.cpp  [01;34mtest[0m
+[m]0;schau009@hammer:~/rshell/src[schau009@hammer src]$ cd test
+]0;schau009@hammer:~/rshell/src/test[schau009@hammer test]$ ls
+[0m[01;34mfile[0m
+[m]0;schau009@hammer:~/rshell/src/test[schau009@hammer test]$ cd file
+]0;schau009@hammer:~/rshell/src/test/file[schau009@hammer file]$ ls
+path
+]0;schau009@hammer:~/rshell/src/test/file[schau009@hammer file]$ exit
+exit
+
+Script done on Fri 20 Nov 2015 02:05:46 PM PST
